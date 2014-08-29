@@ -3,8 +3,44 @@
 
 .clip               { position: absolute; top: 0; left: 0; }
 		
-.pos-1              { clip:rect(0 48px 48px 0); }
-.pos-2              { clip:rect(0 96px 48px 48px); left: -48px; }
+.pos-1              { clip:rect(0 100px 100px 0); }
+.pos-2              { clip:rect(0 200px 100px 100px); left: -100px; }
 .pos-3              { clip:rect(48px 48px 96px 0); top: -48px; }
 .pos-4              { clip:rect(48px 96px 96px 48px); top: -48px; left: -48px; }
+
+#navlist 
+{
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 100px;
+    display: block;
+}
+
+#shocked {
+    left: 0px;
+    width: 100px;
+    background: url('../img/faces.png') 0 0;
+}
+
+#evil {
+    left: 100px;
+    width: 100px;
+    background: url('../img/faces.png') -100px 0;
+}
+
+#sick {
+    left: 200px;
+    width: 75px;
+    background: url('../img/faces.png') -200px 0;
+}
 
