@@ -1,16 +1,15 @@
-App.controller('page3', function (page) 
-{
-$(page).find('#button-send').click(function () 
-{
-		var message = "hello" //a variable
-		var face = document.getElementById("face").value
+
+App.controller('page3', function (page) {
+	// Do stuff when the "Send" button is clicked
+	$(page).find('#button-pick').click(function () {
+		var message = "hello"; //a variable
+		var face = document.getElementById("face").value;
 		if (kik.send) 
 		{
 			// Send message to friends
-				kik.send({
-				title: 'Incoming Message!',
-				pic: face,
-				text: 'This will self-destruct 3 seconds after opening.',
+			kik.send({
+				title: 'Incoming Face!',
+				text: 'I am feeling very hungry',
 				data: {'text': message}
 			});
 		} 
@@ -37,11 +36,6 @@ $(page).find('#button-send').click(function ()
 		}
 	});
 
-});
+	//Dont Do stuff if a Kik message is received
 
-
-
-
-
-	// put stuff here
 });
