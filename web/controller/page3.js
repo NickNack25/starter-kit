@@ -1,4 +1,3 @@
-
 App.controller('page3', function (page) 
 {
  // Do stuff when the "Send" button is clicked
@@ -13,7 +12,7 @@ App.controller('page3', function (page)
 			kik.send({
 				title: 'NEWFACE',
 				text: 'This is a real test',
-				pic: 'http://thumbs.dreamstime.com/z/little-baby-girl-cute-face-closeup-33761529.jpg'
+				pic: 'http://thumbs.dreamstime.com/z/little-baby-girl-cute-face-closeup-33761529.jpg',
 				data: {'text': message}
 			});
 		} 

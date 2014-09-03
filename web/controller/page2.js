@@ -10,7 +10,7 @@ App.controller('page2', function (page)
 			kik.send({
 				title: message,
 				text: 'This is just a test',
-				pic: '../img/face/evil.png',
+				pic: 'http://thumbs.dreamstime.com/z/little-baby-girl-cute-face-closeup-33761529.jpg',
 				data: {'text': message}
 			});
 		}
