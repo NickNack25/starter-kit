@@ -1,6 +1,5 @@
 App.controller('page2', function (page) 
 {
-
  // Do stuff when the "Send" button is clicked
  $(page).find('#button-send').click(function () 
  {
