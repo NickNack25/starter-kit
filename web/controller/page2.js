@@ -11,6 +11,7 @@ App.controller('page2', function (page)
 			kik.send({
 				title: message,
 				text: 'This is just a test',
+				pic: '../img/face/evil.png',
 				data: {'text': message}
 			});
 		}
