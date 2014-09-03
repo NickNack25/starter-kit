@@ -9,7 +9,7 @@ App.controller('page2', function (page)
 		{
 			// Send message to friends
 			kik.send({
-				title: 'NEWFACE',
+				title: message,
 				text: 'This is just a test',
 				data: {'text': message}
 			});
